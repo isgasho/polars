@@ -14,8 +14,11 @@ mis something, please make an issue and/or sent a PR.
 ## Documentation
 Want to know what features Polars support? [Check the current master docs](https://ritchie46.github.io/polars). 
 
-Most
-features are described on the [DataFrame](https://ritchie46.github.io/polars/polars/frame/struct.DataFrame.html), 
+Take a look at the [10 minutes to Polars notebook](examples/10_minutes_to_polars.ipynb) to get you started.
+Want to run the notebook yourself? Clone the repo and run `$ cargo c && docker-compose up`. Oh yeah.. and get a cup of 
+coffee because compilation will take while during the first run.
+
+Most features are described on the [DataFrame](https://ritchie46.github.io/polars/polars/frame/struct.DataFrame.html), 
 [Series](https://ritchie46.github.io/polars/polars/series/enum.Series.html), and [ChunkedArray](https://ritchie46.github.io/polars/polars/chunked_array/struct.ChunkedArray.html)
 structs in that order. For `ChunkedArray` a lot of functionality is also defined by `Traits` in the 
 [ops module](https://ritchie46.github.io/polars/polars/chunked_array/ops/index.html).
