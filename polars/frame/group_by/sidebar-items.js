@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["GroupBy","Returned by a groupby operation on a DataFrame. This struct supports several aggregations."]]});
